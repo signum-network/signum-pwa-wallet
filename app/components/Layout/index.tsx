@@ -24,6 +24,5 @@ export const Layout: FC<ChildrenProps> = ({ children }) => {
     });
   }, []);
 
-  // TODO: define the layout
-  return <Fragment>{children}</Fragment>;
+  return <section className="p-3">{children}</section>;
 };

@@ -17,11 +17,11 @@ const HomePage: NextPage<Props> = ({ url }) => {
     <Layout>
       {data && (
         <SEOMetaTags
-          title={data.name + " • FixcoinApp"}
+          title={data.name + " • Signum Wallet"}
           description={data.description || null}
           // add here an image for SEO
           // imgUrl={some image url}
-          keywords={`Fixcoin, Payback, Fidelity, Tokens, Blockchain`}
+          keywords={`Signum, Tokens, Blockchain`}
         />
       )}
       <Home status={data} />

@@ -7,5 +7,9 @@ interface Props {
 }
 
 export const Home: React.FC<Props> = ({ status }) => {
-  return <div className="my-5"></div>;
+  return (
+    <div className="my-5">
+      <h1 className="sm:text-lg font-bold">Signum PWA Wallet</h1>
+    </div>
+  );
 };
