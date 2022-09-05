@@ -17,6 +17,7 @@
     "paths": {
       "@/bff/*": ["bff/*"],
       "@/app/*": ["app/*"],
+      "@/translations/*": ["translations/*"],
       "@/features/*": ["features/*"],
       "@/states/*": ["states/*"],
       "@/styles/*": ["styles/*"],
@@ -24,6 +25,6 @@
     },
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-i18next.config.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

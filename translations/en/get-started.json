@@ -1,0 +1,9 @@
+{
+  "title": "Get started",
+  "getAccount": "Get your account",
+  "start": {
+    "create": "Create",
+    "import": "Import",
+    "info-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in mauris quis nibh tempor posuere. Donec mollis, lorem sit amet molestie consequat, tellus sem feugiat sapien, sed posuere odio lacus a augue. Mauris venenatis elementum mollis. Nunc semper est sed cursus ornare. Aenean molestie pharetra tortor, a rutrum dui convallis id."
+  }
+}
