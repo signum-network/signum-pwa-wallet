@@ -2647,27 +2647,27 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz#0c8b74c50f29ee44f423f7416829c0bf8bb5eb27"
   integrity sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA==
 
-"@signumjs/contracts@^1.0.0-rc.21":
-  version "1.0.0-rc.21"
-  resolved "https://registry.yarnpkg.com/@signumjs/contracts/-/contracts-1.0.0-rc.21.tgz#0a0fd50996d710558480a48afb8650bdfcc0133b"
-  integrity sha512-6aVbnbC0efenx6Uvdr/mNuISDAUAlub9N9zTqlODroeanL02heJtWr1dpgvFz3tORZ5BaUuUAypbFI+gD9oIxA==
+"@signumjs/contracts@^1.0.0-rc.32":
+  version "1.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@signumjs/contracts/-/contracts-1.0.0-rc.32.tgz#49c737297e4e73df417abc3a0c63018f0bfc8c5b"
+  integrity sha512-PlQDei0VtbvmlLIRhhv/oZTw3Ty9hSg+C6lAHFK4NoY78wZ6IuAB8N1kUIm6F0jwDx16r2byNh4plbeq0/+Itw==
   dependencies:
-    "@signumjs/util" "^1.0.0-rc.21"
+    "@signumjs/util" "^1.0.0-rc.32"
 
-"@signumjs/core@^1.0.0-rc.21":
-  version "1.0.0-rc.21"
-  resolved "https://registry.yarnpkg.com/@signumjs/core/-/core-1.0.0-rc.21.tgz#600e150eda573c6a326d35c947351e42fca0aef1"
-  integrity sha512-XfoHOmAbm+ze72KmzmXdiLo4aKJ3OJIkn+ySRJFQtfRO1tsNp9cEuPG6vpjt9Nx7y8rkvRozN+8UmfWmcaGRFQ==
+"@signumjs/core@^1.0.0-rc.32":
+  version "1.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@signumjs/core/-/core-1.0.0-rc.32.tgz#be764340e3c484711741bac582eaa27221f330a1"
+  integrity sha512-r8+n8fmbKk4SE02kZ/v2ghUc6S8P4THXxoqBJPaGMG5VouCqPyw9pHk5gA1/Y4xxGs/PqQXBKDGW4rd8GPbbnQ==
   dependencies:
-    "@signumjs/contracts" "^1.0.0-rc.21"
-    "@signumjs/crypto" "^1.0.0-rc.21"
-    "@signumjs/http" "^1.0.0-rc.21"
-    "@signumjs/util" "^1.0.0-rc.21"
+    "@signumjs/contracts" "^1.0.0-rc.32"
+    "@signumjs/crypto" "^1.0.0-rc.32"
+    "@signumjs/http" "^1.0.0-rc.32"
+    "@signumjs/util" "^1.0.0-rc.32"
 
-"@signumjs/crypto@^1.0.0-rc.21":
-  version "1.0.0-rc.21"
-  resolved "https://registry.yarnpkg.com/@signumjs/crypto/-/crypto-1.0.0-rc.21.tgz#a36dc0101786a1c8982939616a2be133cb18068c"
-  integrity sha512-tQ7TPciHywBkV+nlc2XPqYEaVN4VsodE/5DDyptHq0sfb091ZZNvc9HIkUng2gec/iGcoCuCmdK6weVVg/otZQ==
+"@signumjs/crypto@^1.0.0-rc.32":
+  version "1.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@signumjs/crypto/-/crypto-1.0.0-rc.32.tgz#52f8748d1f9f233be9913ee57b05eef40fbc60f9"
+  integrity sha512-0UHKr8iS4w0UkMupav9ZSNGm0OUnhEzhnCmVRaPXWcad+Gey+hCSKF+gfz1KEnhkvRHcpcc6XUAWvgH4qGwkGQ==
   dependencies:
     "@types/crypto-js" "^3.1.43"
     "@types/node" "^12.0.0"
@@ -2677,17 +2677,17 @@
     pako "^1.0.10"
     seedrandom "^3.0.5"
 
-"@signumjs/http@^1.0.0-rc.21":
-  version "1.0.0-rc.21"
-  resolved "https://registry.yarnpkg.com/@signumjs/http/-/http-1.0.0-rc.21.tgz#d9ccbc89ca1e9cf9c5a215308e5dd3f1cbfc1d8d"
-  integrity sha512-wCz+M4VjW5So/pjsCDHfInsAP+rECMMFwVMc7BPHSsy3N6X4zN6U08Ac604wnhQkAomlw108NQtsWwV5//+ovA==
+"@signumjs/http@^1.0.0-rc.32":
+  version "1.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@signumjs/http/-/http-1.0.0-rc.32.tgz#a9f5486c03568735070b52cdb7002c48c3efa701"
+  integrity sha512-fr9NdYCKYbsmt39sF8FaTWFNM2Ke2eetKisYDCpWOqOUaTCMIH7TphhsVgecGBSHP4HYAFLTbhQoUxHSud6GWw==
   dependencies:
     axios "^0.21.4"
 
-"@signumjs/util@^1.0.0-rc.21":
-  version "1.0.0-rc.21"
-  resolved "https://registry.yarnpkg.com/@signumjs/util/-/util-1.0.0-rc.21.tgz#e7dab17f629f8eb57b49cda4d523fe0b4e5a0feb"
-  integrity sha512-qK+MCKFhRnNWWMGfFZQcgVg+Kxjx82mbdxSZsGVlGg0IpLrpVMQvPs3wHTSK6+HNU43Tl+u0IJWC7K0VjlE2aA==
+"@signumjs/util@^1.0.0-rc.32":
+  version "1.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@signumjs/util/-/util-1.0.0-rc.32.tgz#f24026c78a70758688cbdee75f763b5c052b2d9b"
+  integrity sha512-SJDJl/GgVGu5AYcOosUBkj6xwNNHdg6Emq6c5gxTt7m5hT6aTL36NxoDW49+shJKlpXk8ZGr1zTvn1iNuDOkLw==
   dependencies:
     bignumber.js "^9.0.0"
     js-base64 "^3.6.0"
@@ -3963,13 +3963,6 @@
   version "6.9.7"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
   integrity sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==
-
-"@types/react-copy-to-clipboard@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@types/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.4.tgz#558f2c38a97f53693e537815f6024f1e41e36a7e"
-  integrity sha512-otTJsJpofYAeaIeOwV5xBUGpo6exXG2HX7X4nseToCB2VgPEBxGBHCm/FecZ676doNR7HCSTVtmohxfG2b3/yQ==
-  dependencies:
-    "@types/react" "*"
 
 "@types/react@*":
   version "17.0.42"

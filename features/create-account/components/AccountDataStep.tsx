@@ -3,7 +3,7 @@ import { StepPanel } from "@/app/components/Layout";
 import { InfoBox } from "@/app/components/Layout";
 import { useTranslation } from "react-i18next";
 import { HiOutlineDuplicate, HiOutlinePrinter } from "react-icons/hi";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+import CopyToClipboard from "react-copy-to-clipboard";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
