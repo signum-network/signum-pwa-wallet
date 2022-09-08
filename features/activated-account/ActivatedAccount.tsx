@@ -33,6 +33,7 @@ export const ActivatedAccount: React.FC<{ mode: "create" | "import" }> = ({
         label={tStepActivated("go-to-dashboard")}
         variant="primary"
         className="w-full mt-4 text-xl font-bold"
+        onClick={() => router.push("/")}
       />
     </div>
   );

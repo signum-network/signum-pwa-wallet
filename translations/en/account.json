@@ -14,7 +14,10 @@
       "warning-title": "Please store this passphrase in a secure place. This passphrase is needed in order to access your Signum account.",
       "warning-description": "If you lose the passphrase you won't be able to do any transactions, i.e. your coins are lost. The passphrase is not recoverable. Keep this passphrase secret. Everybody who knows the passphrase is de facto the owner of the account.",
       "address": "Address",
-      "passphrase": "Passphrase"
+      "passphrase": "Passphrase",
+      "copy": "Copy",
+      "print": "Print",
+      "passphrase-copied": "Passphrase copied to clipboard"
     },
     "step-3": {
       "title": "Activate",

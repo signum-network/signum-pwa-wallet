@@ -10,6 +10,7 @@ import "./globals.css";
 import * as React from "react";
 import { I18nextProvider } from "react-i18next";
 import i18n from "@/app/i18n";
+import { AppInitializer } from "@/app/components/AppInitializer";
 
 const persistor = persistStore(store);
 
@@ -25,7 +26,7 @@ function App({ Component, pageProps }: AppProps) {
         />
 
         <ReduxProvider store={store}>
-          {/* <AppInitializer /> */}
+          <AppInitializer />
           <PersistGate loading={null} persistor={persistor}>
             <Component {...pageProps} />
           </PersistGate>
