@@ -25,6 +25,12 @@ Secondary.args = {
   label: "Secondary",
 };
 
+export const Gray = Template.bind({});
+Gray.args = {
+  variant: "gray",
+  label: "Gray",
+};
+
 export const Default = Template.bind({});
 Default.args = {
   variant: "default",

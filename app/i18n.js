@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { translations as english } from "@/translations/en";
 
 i18n
-  .use(LanguageDetector)
+  //.use(LanguageDetector)
   .use(initReactI18next)
   .init({
     debug: true,

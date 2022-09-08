@@ -10,12 +10,21 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         default: "#3D6670",
-        disable: "#94AFB6",
         primary: "#243972",
         secondary: "#F1F3F6",
+        tertiary: "#94AFB6",
         separator: "#DDDDDD",
         income: "#41BE06",
         spending: "#EB1F39",
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
       },
     },
   },

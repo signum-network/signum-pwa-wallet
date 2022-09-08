@@ -25,8 +25,10 @@ export const Layout: FC<ChildrenProps> = ({ children }) => {
   }, []);
 
   return (
-    <section className="p-3 min-h-[100vh] flex justify-center items-center">
-      <div className="max-w-[500px]">{children}</div>
+    <section className="min-h-[100vh] flex justify-center items-center bg-gray-100">
+      <div className="w-full max-w-[500px] min-h-[inherit] flex p-3 print:max-w-none">
+        {children}
+      </div>
     </section>
   );
 };

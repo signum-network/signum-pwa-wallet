@@ -4,14 +4,12 @@ import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
 import { store } from "@/states/store";
 import { AppContextProvider } from "@/app/contexts/AppContext";
-import { isClientSide } from "@/app/isClientSide";
 import { SEOMetaTags } from "@/app/components/SEOMetaTags";
-import { AppInitializer } from "@/app/components/AppInitializer";
 
 import "./globals.css";
 import * as React from "react";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./../i18n";
+import i18n from "@/app/i18n";
 
 const persistor = persistStore(store);
 

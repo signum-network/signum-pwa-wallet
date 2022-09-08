@@ -3,8 +3,10 @@ import { HiOutlineIdentification, HiOutlineUserAdd } from "react-icons/hi";
 
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export const GetStarted: React.FC = () => {
+  const router = useRouter();
   const { t } = useTranslation("getStarted");
 
   return (
@@ -32,6 +34,7 @@ export const GetStarted: React.FC = () => {
         iconPlacement="top"
         iconSize="md"
         className="uppercase py-9 px-9 w-40"
+        onClick={() => router.push("/create-account")}
       />
       <Button
         label={t("start.import")}
@@ -41,6 +44,7 @@ export const GetStarted: React.FC = () => {
         iconPlacement="top"
         iconSize="md"
         className="uppercase py-9 px-9 w-40 mt-4"
+        onClick={() => router.push("/import-account")}
       />
 
       <p className="text-[13px] text-default mt-8 text-center">

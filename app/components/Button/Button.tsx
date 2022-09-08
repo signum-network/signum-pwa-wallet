@@ -54,6 +54,14 @@ export const Button = ({
       fill: "bg-secondary hover:bg-secondary/70 text-slate-800",
       outline: `${outlineClasses} hover:bg-slate-800/25 border-bg-slate-800 text-bg-slate-800`,
     },
+    tertiary: {
+      fill: "bg-tertiary hover:bg-tertiary/70 text-white",
+      outline: `${outlineClasses} hover:bg-tertiary/25 border-bg-tertiary text-bg-tertiary`,
+    },
+    gray: {
+      fill: "bg-separator hover:bg-separator/70 text-slate-800",
+      outline: `${outlineClasses} hover:bg-slate-800/25 border-bg-slate-800 text-bg-slate-800`,
+    },
   };
 
   return (
@@ -62,7 +70,7 @@ export const Button = ({
       {...props}
       className={clsx(
         colorScheme[variant][outline ? "outline" : "fill"],
-        "py-4 px-5 rounded transition-colors",
+        "py-4 px-5 rounded-lg transition-colors ",
         props.className
       )}
     >
